@@ -1,1 +1,7 @@
+trigger:
+- main
 
+steps:
+- script: |
+    terraform init
+    terraform apply -auto-approve
