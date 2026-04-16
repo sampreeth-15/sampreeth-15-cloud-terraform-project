@@ -1,1 +1,4 @@
-
+kind: Service
+apiVersion: v1
+metadata:
+  name: nginx-service
